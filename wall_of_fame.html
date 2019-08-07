@@ -36,6 +36,9 @@
         .show-read-more .more-text{
             display: none;
         }
+        .active {
+          color: black;
+        }
     </style>
 </head>
 
@@ -385,13 +388,13 @@
 
 <h2 class="text-center pd-2 m-0">Achievement Categories</h2>
 <ul id="filters" class="text-center">
-        <li class=" px-1 active" data-filter="*" style="display: inline; font-size: 1.2rem">All</li>
+        <li class=" px-1 active" data-filter="*" style="display: inline; font-size: 1.2rem; cursor: pointer;">All</li>
         <li class="px-1 " style="display: inline">/</li>
 
-        <li data-filter=".hire" class="px-1" style="display: inline; font-size: 1.2rem;">Placements</li>
+        <li data-filter=".hire" class="px-1" style="display: inline; font-size: 1.2rem; cursor: pointer;">Placements</li>
         <li class="px-1 " style="display: inline">/</li>
 
-        <li data-filter=".achieve" class="px-1" style="display: inline; font-size: 1.2rem">Achievements</li>
+        <li data-filter=".achieve" class="px-1" style="display: inline; font-size: 1.2rem; cursor: pointer;">Achievements</li>
 </ul>
 
 
