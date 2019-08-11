@@ -3494,8 +3494,8 @@ section.text-right > .container:last-child > .row:only-child > div[class*='col-'
 /**! 37. Spacing **/
 section,
 footer {
-  padding-top: 7.42857143em;
-  padding-bottom: 7.42857143em;
+  padding-top: 6.42857143em;
+  padding-bottom: 6.42857143em;
 }
 section.space--xxs,
 footer.space--xxs {
