@@ -32,6 +32,45 @@
 
         gtag('config', 'UA-103189427-1');
     </script>
+    <style>        
+        .circles {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: white;
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1268px)  {
+            .circles {
+                width: 180px;
+                height: 180px;
+            }
+        }
+        
+
+        @media only screen and (max-width: 767px) {
+            .arrows {
+                transform: rotate(90deg);
+                position: relative !important;
+                top:0% !important; 
+            } 
+        }
+        .arrows {
+            position: relative;
+            max-width: 150px;
+            top: 10%;
+            width:10vw;
+            padding: 5px;
+            margin-bottom: 20px !important;
+        }
+
+        .hired {
+            background: white;
+            border-radius: 20%;
+            height:100%;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -191,7 +230,7 @@
                                                                                         Code Sprint
                                                                                     </a>
                                                                                 </li>
-
+                                                                                transform: rotate(20deg);
                                                                             </ul>
                                                                         </div>
 
@@ -382,34 +421,43 @@
                 <div class="heading text-center mt-3"><h3 style="font-weight: bold; color: white;">Process to follow</h3></div>
                 <div class="sub-heading text-center"><h4 style="font-weight: bold; color: white;">Your dream job is few steps away</h4></div>
                 <div class="card-container row">
-                    <div class="card text-center col-2" style="width: 18rem;">
-                        <img class="card-img-top" src="img/application2.svg" alt="Card image cap">
-                        <div class="card-body mb-4">
-                            <h5 class="card-title" style="font-weight: bold; color: white; font-size:1.3rem; margin-bottom:5px;">Complete</h5>
-                            <p class="card-text" style="font-weight: bold; color: white; font-size:1.1rem;">Your <a href="login.html" style="text-decoration: none;">Profile</a></p>
+                    <div class="card-container col-md-8 col-xs-12">
+                    <div class="row">
+                        <div class="card text-center col-md-4 col-xs-12">
+                            <div class="circles card-img-top" style="margin:auto;">
+                                <img class="" style="top:25%;position: relative;margin: auto;width: 90px;" src="img/application2.svg" alt="Card image cap">
+                            </div>
+                            <div class="card-body mb-4">
+                                <h5 class="card-title" style="font-weight: bold; color: white; font-size:1.3rem; margin-bottom:5px;">Complete</h5>
+                                <p class="card-text" style="font-weight: bold; color: white; font-size:1.1rem;">Your <a href="login.html" style="text-decoration: none;">Profile</a></p>
+                            </div>
+                        </div>
+                        <div class="card text-center col-md-4 col-xs-12">
+                                <div class="circles card-img-top" style="margin:auto;">
+                                    <img class="" style="top:25%;position: relative;margin: auto;width: 90px;" src="img/apply.svg" alt="Card image cap">
+                                </div>
+                                <div class="card-body mb-4">
+                                    <h5 class="card-title" style="font-weight: bold; color: white; font-size:1.3rem; margin-bottom:5px;">Apply</h5>
+                                    <p class="card-text" style="font-weight: bold; color: white; font-size:1.1rem;">For your dream job + Practice with Mock interview</p>
+                                </div>
+                        </div>
+                        <div class="card text-center col-md-4 col-xs-12">
+                                <div class="circles card-img-top" style="margin:auto;">
+                                    <img class="" style="top:25%;position: relative;margin: auto;width: 90px;" src="img/interview1.svg" alt="Card image cap">
+                                </div>
+                                <div class="card-body mb-4">
+                                    <h5 class="card-title" style="font-weight: bold; color: white; font-size:1.3rem; margin-bottom:5px;">Interview</h5>
+                                    <p class="card-text" style="font-weight: bold; color: white; font-size:1.1rem;">Interview at Dream company</p>
+                                </div>
                         </div>
                     </div>
-                    <div class="card text-center col-3" style="width: 18rem;">
-                        <img class="card-img-top" src="img/apply.svg" alt="Card image cap">
-                        <div class="card-body mb-4">
-                            <h5 class="card-title" style="font-weight: bold; color: white; font-size:1.3rem;margin-bottom:5px;">Apply</h5>
-                            <p class="card-text" style="font-weight: bold; color: white; font-size:1.1rem;">For your dream job + Practice with Mock interview</p>
-                        </div>
                     </div>
-                    <div class="card text-center col-2" style="width: 18rem;">
-                        <img class="card-img-top" src="img/interview1.svg" alt="Card image cap">
-                        <div class="card-body mb-4">
-                            <h5 class="card-title" style="font-weight: bold; color: white; font-size:1.3rem;margin-bottom:5px;">Interview</h5>
-                            <p class="card-text" style="font-weight: bold; color: white; font-size:1.1rem;">Interview at Dream company</p>
-                        </div>
+                    <div class="col-md-1 text-center offset-xs-2 col-xs-8">
+                            <img class="arrows" src="img/arrow-pointing-to-right.svg" alt="Card image cap">
                     </div>
-                    <div class="card text-center col-2" style="width: 18rem;">
-                            <img class="card-img-top" src="img/arrow1.png" alt="Card image cap" style="width:15rem;">
-                    </div>
-
-                    <div class="col-3 text-center mb-1" style="background-image:url(img/hired2.png); background-repeat: no-repeat; background-size:contain; ">
-                        <!--<img src="img/hired2.png">-->
-                    </div>
+                    <div class="col-md-3 text-center col-xs-12">
+                        <img class="circles" src="img/hired2.png">
+                    </div>    
                 </div>
             </div>
         </div>
