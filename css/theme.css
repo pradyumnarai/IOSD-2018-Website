@@ -130,6 +130,9 @@ h6,
   font-size: 1.35714286em;
   line-height: 1.68421053em;
 }
+.fw-600{
+  font-weight: 600;
+}
 @media all and (max-width: 767px) {
   h1,
   .h1 {
@@ -168,7 +171,9 @@ h6,
 
 /*}*/
 /* logoend */
-
+#logoCenter{
+  margin-left: 2px;
+}
 p,
 ul,
 ol,
@@ -271,6 +276,15 @@ body {
 }
 .float-right {
   float: right;
+}
+.mt-75{
+  margin-top: 75px;
+}
+.mt-50{
+  margin-top: 50px;
+}
+.pb-section {
+  padding-bottom: 6.42857143em;
 }
 @media all and (max-width: 768px) {
   #size{
@@ -1145,18 +1159,21 @@ ul:last-child {
 .menu-horizontal > li:not(:hover) > .modal-instance > .modal-trigger {
   opacity: .5;
 }
+.menu-horizontal > li:hover > a,
+.menu-horizontal > li:hover > span,
+.menu-horizontal > li:hover > .modal-instance > .modal-trigger {
+  color: #3483de;
+}
 .menu-horizontal > li > a,
 .menu-horizontal > li > span,
 .menu-horizontal > li > .modal-instance > .modal-trigger {
   transition: 0.3s ease;
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;
-  color: #252525;
 }
 .menu-horizontal > li > a:hover,
 .menu-horizontal > li > span:hover,
 .menu-horizontal > li > .modal-instance > .modal-trigger:hover {
-  color: #252525;
 }
 .bg--dark .menu-horizontal > li > a,
 .bg--dark .menu-horizontal > li > span {
@@ -3173,7 +3190,7 @@ form[action*='list-manage.com'] .small-meta {
   right: auto;
 }
 .switchable .switchable__text {
-  margin-top: 3.71428571em;
+  /* margin-top: 3.71428571em; */
 }
 .switchable > div[class*='col-'] {
   padding: 0;
@@ -4205,7 +4222,7 @@ pre {
   border-color: #ddd;
 }
 .text-block {
-  margin-bottom: 1.85714286em;
+  /* margin-bottom: 1.85714286em; */
 }
 .text-block h2,
 .text-block .h2 {
@@ -5511,6 +5528,16 @@ body.dropdowns--hover .nav-sidebar-column .dropdown:hover > .dropdown__container
 .menu-vertical li:not(:hover):not(.dropdown--active) {
   opacity: .75;
 }
+.dropdown--active > span{
+  opacity: 1!important;
+  color: #3483de;
+}
+.menu-vertical > li:hover > a,
+.menu-vertical > li:hover > i,
+.menu-vertical > li:hover >  span, 
+.menu-vertical > li:hover > span > i {
+  color: #3483de!important;
+}
 .menu-vertical li:not(:last-child) {
   margin-bottom: 0.30952381em;
 }
@@ -6185,6 +6212,10 @@ a.block:hover > .feature {
     margin-top: 0.92857143em;
   }
 }
+.feature-3 {
+  height: 380px;
+  max-height: 380px;
+}
 .feature-3 i {
   margin-bottom: 0.16666666666667em;
 }
@@ -6307,6 +6338,9 @@ a.block:hover > .feature {
   border-radius: 50%;
   box-shadow:
 
+}
+.medium-text {
+  font-size: 2.6em;
 }
 .feature-9 h4 {
   margin: 0;
@@ -6659,8 +6693,11 @@ a.block:hover > .feature {
     flex-flow: row;
   }
 }
+.switchable{
+  padding-top: 0!important;
+}
 .switchable .switchable__text {
-  margin-top: 1.85714286em;
+  /* margin-top: 1.85714286em; */
 }
 .switchable [class*='col-']:first-child .switchable__text {
   margin-bottom: 2.78571429em;
@@ -6676,7 +6713,7 @@ a.block:hover > .feature {
 }
 @media all and (max-width: 767px) {
   .switchable .switchable__text {
-    margin-top: 1.85714286em;
+    /* margin-top: 1.85714286em; */
   }
   .switchable .imageblock__content[class*='col-'] {
     float: none !important;
