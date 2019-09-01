@@ -136,6 +136,9 @@ h6,
 .fw-600{
   font-weight: 600;
 }
+.menu-sup{
+  color: rgb(4, 227, 255);
+}
 @media all and (max-width: 767px) {
   h1,
   .h1 {
@@ -3466,6 +3469,9 @@ form[action*='list-manage.com'] .small-meta {
   transition: all .2s ease;
   white-space: nowrap;
 }
+.no-wrap{
+  white-space: nowrap;
+}
 .page-navigator li a[data-title]:not(:hover):before {
   opacity: 0;
   transform: translateX(-20px);
@@ -4494,7 +4500,7 @@ hr[data-title]:before {
 }
 .btn.type--uppercase .btn__text {
   letter-spacing: .5px;
-  margin-right: -0.5px;
+  margin-right: -3px;
 }
 .btn .label {
   top: -0.92857143em;
