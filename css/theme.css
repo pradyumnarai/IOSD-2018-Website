@@ -59,6 +59,9 @@ a {
   margin: 0;
   padding: 0;
 }
+html, body{
+  overflow: auto;
+}
 /**! 02. Typography **/
 html {
   font-size: 87.5%;
@@ -1101,6 +1104,10 @@ div[data-overlay] ul {
   line-height: 1em;
   font-size: 3.14285714em;
 }
+.icon-fa{
+  font-family: FontAwesome;
+  font-weight: 900;
+}
 .icon--xs {
   font-size: 1em;
 }
@@ -1154,11 +1161,11 @@ ul:last-child {
   padding: 0.46428571em;
 }
 /**! 10. Menus **/
-.menu-horizontal > li:not(:hover) > a,
+/* .menu-horizontal > li:not(:hover) > a,
 .menu-horizontal > li:not(:hover) > span,
 .menu-horizontal > li:not(:hover) > .modal-instance > .modal-trigger {
   opacity: .5;
-}
+} */
 .menu-horizontal > li:hover > a,
 .menu-horizontal > li:hover > span,
 .menu-horizontal > li:hover > .modal-instance > .modal-trigger {
@@ -5525,9 +5532,9 @@ body.dropdowns--hover .nav-sidebar-column .dropdown:hover > .dropdown__container
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;
 }
-.menu-vertical li:not(:hover):not(.dropdown--active) {
+/* .menu-vertical li:not(:hover):not(.dropdown--active) {
   opacity: .75;
-}
+} */
 .dropdown--active > span{
   opacity: 1!important;
   color: #3483de;
