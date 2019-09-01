@@ -49,6 +49,8 @@
     margin-top: -25px;
 }
 
+
+
 .ac-mar {
     margin-top: -54px;
     font-size: 77px;
@@ -106,6 +108,12 @@
 @media all and (max-width: 1024px) {
     .videobg video {
         display: initial;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    [class*='ac-mar'] {
+        font-size: 50px;
     }
 }
 
